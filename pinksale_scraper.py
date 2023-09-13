@@ -85,7 +85,7 @@ def get_pinksale_data():
                     current_date = datetime.datetime.now().strftime('%Y-%m-%d')
                     time.sleep(1)
 
-                    file.write(f"{filter} | {coin_name} | {kyc_or_not} | {presale} | {per_of_release} | {current_presale} | {soft} | {hard} | {currency} | {progress_percentage} | {day_hour_min_sec} | {current_date}\n")
+                    file.write(f"{filter} ; {coin_name} ; {kyc_or_not} ; {presale} ; {per_of_release} ; {current_presale} ; {soft} ; {hard} ; {currency} ; {progress_percentage} ; {day_hour_min_sec} ; {current_date}\n")
                     count += 1
                     if count % 3 == 0:
                         # driver.scroll(0, 100)

@@ -23,7 +23,7 @@ def get_pinksale_data():
     # Add an option to disable the "Chrome is being controlled by automated test software" notification
     option.add_argument("--disable-infobars")
 
-    # If your chromedriver is in a different directory yo can uncomment line 29 and add the path to the chromedriver, also uncomment line 31 so that the service argument will be added
+    # If your chromedriver is in a different directory yo can uncomment line 27 and add the path to the chromedriver, also uncomment line 29 so that the service argument will be added
     #service = ChromeService(executable_path="/home/krissemmy/Downloads/chromedriver-linux64/chromedriver")
 
     driver = webdriver.Chrome(options=option)#, service=service)
